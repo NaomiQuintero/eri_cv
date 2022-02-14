@@ -1,0 +1,61 @@
+@import url(./styles.css);
+@import url(mi-proyecto.css);
+@import url(boxCom.css);
+@import url(marvol.css);
+@import url(netnet.css);
+
+:root{
+    --fontBase:'Poppins', sans-serif;
+    --color1: #304a83;
+    --color2: #dfc1f4;
+}
+
+html{
+    font-family: var(--fontBase);
+}
+
+body{
+    background: rgb(223,193,244);
+background: radial-gradient(circle, #dfc1f4 0%, #3d6fd9 63%, rgba(55,111,230,1) 100%);
+}
+
+@media screen and (max-width:600px) {
+
+    html{
+        text-align: center;
+        justify-content: center;
+        justify-items: center;  
+        margin-left: 0px;
+    }
+    
+    .none{
+        display: none;
+    }
+
+    .container2{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 15px;
+    }
+    #boxfoto {
+        border-radius: 50%;
+        overflow:hidden;
+    }
+    #cv1{
+        background-color: var(--color1);
+        color: white;
+        border-radius: 5px;
+        font-size: 10px;
+        display: block;
+    }
+    
+    #container3 {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+        justify-content: space-between;
+        align-self: center;
+    }
+    
+
+}

@@ -1,0 +1,9 @@
+#titulo3{
+    height: 29px;
+    width: 90px;
+    color:white;
+    background-color: var(--color1);
+    text-align:center;
+    justify-content:center;
+    align-items: center;
+}
